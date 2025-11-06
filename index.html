@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>One Page Website</title>
+  <style>
+    /* Reset default margins */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+      color: #333;
+    }
+
+    header {
+      background: #0078ff;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    nav {
+      background: #222;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      display: block;
+    }
+
+    nav ul li a:hover {
+      background: #0078ff;
+      border-radius: 5px;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section:nth-child(even) {
+      background: #f9f9f9;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #0078ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 10px;
+      background: #222;
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My One Page Website</h1>
+    <p>Clean • Simple • Responsive</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      This is a simple one-page website template built with pure HTML and CSS.
+      It’s fully responsive and perfect for small projects, portfolios, or landing pages.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <p>
+      We offer web design, front-end development, and branding solutions.
+      Everything you need to launch a professional web presence.
+    </p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>
+      Check out some of our featured projects and creative work samples.
+      (You can replace this with a gallery or cards.)
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      Have a question or want to work together?  
+      Email us at <a href="mailto:hello@example.com">hello@example.com</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
